@@ -17,7 +17,7 @@ const addSquares = (x, y) => {
 const getInputValues = () => {
     const num1 = parseFloat(document.getElementById("num1").value);
     const num2 = parseFloat(document.getElementById("num2").value);
-    return {num1, num2}
+    return {num1, num2};
 };
 
 const addNumbers = () => {
@@ -33,9 +33,9 @@ const multiplyNumbers = () => {
 const squareNumbers = () => {
     const {num1} = getInputValues();
     alert("Result: " + square(num1));
-}
+};
 
 const addSquaresNumbers = () => {
     const {num1, num2} = getInputValues();
-    alert("Results: " + addSquares(num1, num2))
-}
+    alert("Results: " + addSquares(num1, num2));
+};
